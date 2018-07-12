@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1309027A7CAFDA6E31B56123 /* Pods_LocateTutorsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21529FE45B91BC1675C3835C /* Pods_LocateTutorsUITests.framework */; };
+		15C8D9F46E38371AE4AA4349 /* Pods_LocateTutors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0536538D4C65A25C63414FE2 /* Pods_LocateTutors.framework */; };
+		B8A7F1A324B77FA807DE6E5A /* Pods_LocateTutorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8755C463A3A5B8027EF9568D /* Pods_LocateTutorsTests.framework */; };
+		CC0A17CD209761C600575807 /* AppointmentLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17CB209761C600575807 /* AppointmentLists.swift */; };
+		CC0A17CE209761C600575807 /* AppointmentLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17CB209761C600575807 /* AppointmentLists.swift */; };
+		CC0A17D12097624300575807 /* SeeAppts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17CF2097624300575807 /* SeeAppts.swift */; };
+		CC0A17D22097624300575807 /* SeeAppts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17CF2097624300575807 /* SeeAppts.swift */; };
+		CC0A17D52097628400575807 /* StudentAppointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17D32097628400575807 /* StudentAppointments.swift */; };
+		CC0A17D62097628400575807 /* StudentAppointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17D32097628400575807 /* StudentAppointments.swift */; };
+		CC0A17D92097639F00575807 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17D72097639F00575807 /* PopUpViewController.swift */; };
+		CC0A17DA2097639F00575807 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17D72097639F00575807 /* PopUpViewController.swift */; };
+		CC0A17DD209763D600575807 /* TutorProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17DB209763D600575807 /* TutorProfilePage.swift */; };
+		CC0A17DE209763D600575807 /* TutorProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17DB209763D600575807 /* TutorProfilePage.swift */; };
+		CC0A17E12097640600575807 /* ViewAppointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17DF2097640600575807 /* ViewAppointments.swift */; };
+		CC0A17E22097640600575807 /* ViewAppointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17DF2097640600575807 /* ViewAppointments.swift */; };
+		CC0A17E52097642000575807 /* ViewAppointmentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17E32097642000575807 /* ViewAppointmentCellTableViewCell.swift */; };
+		CC0A17E62097642000575807 /* ViewAppointmentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17E32097642000575807 /* ViewAppointmentCellTableViewCell.swift */; };
+		CC0A17E92097646000575807 /* UpdateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17E72097646000575807 /* UpdateProfile.swift */; };
+		CC0A17EA2097646000575807 /* UpdateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17E72097646000575807 /* UpdateProfile.swift */; };
+		CC0A17ED2097647C00575807 /* UpdateFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17EB2097647C00575807 /* UpdateFile.swift */; };
+		CC0A17EE2097647C00575807 /* UpdateFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A17EB2097647C00575807 /* UpdateFile.swift */; };
+		CC634B9820BF094C00F68EE9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC634B9720BF094B00F68EE9 /* Default-568h@2x.png */; };
+		CCCAAF3D2093B39200A20E79 /* LocateTutorsTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CCDC76F41FC67EF700B2C034 /* LocateTutorsTests.xctest */; };
+		CCCAAF3E2093B39700A20E79 /* LocateTutorsUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CCDC76FF1FC67EF700B2C034 /* LocateTutorsUITests.xctest */; };
+		CCCAAF402093B3A300A20E79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCDC77051FC67EF700B2C034 /* Info.plist */; };
+		CCCAAF422093B3B900A20E79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCDC76FA1FC67EF700B2C034 /* Info.plist */; };
+		CCCAAF442096E67900A20E79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCCAAF432096E67900A20E79 /* GoogleService-Info.plist */; };
+		CCDC76E91FC67EF700B2C034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDC76E71FC67EF700B2C034 /* Main.storyboard */; };
+		CCDC76EB1FC67EF700B2C034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDC76EA1FC67EF700B2C034 /* Assets.xcassets */; };
+		CCDC76EE1FC67EF700B2C034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDC76EC1FC67EF700B2C034 /* LaunchScreen.storyboard */; };
+		CCDC76F91FC67EF700B2C034 /* LocateTutorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC76F81FC67EF700B2C034 /* LocateTutorsTests.swift */; };
+		CCDC77041FC67EF700B2C034 /* LocateTutorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC77031FC67EF700B2C034 /* LocateTutorsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCDC76F51FC67EF700B2C034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDC76D81FC67EF700B2C034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDC76DF1FC67EF700B2C034;
+			remoteInfo = LocateTutors;
+		};
+		CCDC77001FC67EF700B2C034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDC76D81FC67EF700B2C034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDC76DF1FC67EF700B2C034;
+			remoteInfo = LocateTutors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021B1BCC9C4F9A02AF48521C /* Pods-LocateTutorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateTutorsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateTutorsUITests/Pods-LocateTutorsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0536538D4C65A25C63414FE2 /* Pods_LocateTutors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocateTutors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F24B355200F03EE0012E428 /* addAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addAvailability.swift; sourceTree = "<group>"; };
+		0F276BA4200FCEA900E9EB09 /* firstPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPageVC.swift; sourceTree = "<group>"; };
+		21529FE45B91BC1675C3835C /* Pods_LocateTutorsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocateTutorsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE53F908892F19215333347 /* Pods-LocateTutors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateTutors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocateTutors/Pods-LocateTutors.debug.xcconfig"; sourceTree = "<group>"; };
+		8755C463A3A5B8027EF9568D /* Pods_LocateTutorsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocateTutorsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B11A79CB6D4A20CF469DFEE /* Pods-LocateTutorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateTutorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateTutorsTests/Pods-LocateTutorsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5DFDEF2A876E6341D22A963 /* Pods-LocateTutors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateTutors.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateTutors/Pods-LocateTutors.release.xcconfig"; sourceTree = "<group>"; };
+		C75C43E4152E877EF8CD009C /* Pods-LocateTutorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateTutorsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocateTutorsUITests/Pods-LocateTutorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC0A17CB209761C600575807 /* AppointmentLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentLists.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17CF2097624300575807 /* SeeAppts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAppts.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17D32097628400575807 /* StudentAppointments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentAppointments.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17D72097639F00575807 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17DB209763D600575807 /* TutorProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorProfilePage.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17DF2097640600575807 /* ViewAppointments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAppointments.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17E32097642000575807 /* ViewAppointmentCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAppointmentCellTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17E72097646000575807 /* UpdateProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfile.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17EB2097647C00575807 /* UpdateFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateFile.swift; sourceTree = SOURCE_ROOT; };
+		CC0A17EF209916AC00575807 /* TutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorView.swift; sourceTree = SOURCE_ROOT; };
+		CC26692E1FC6A5D0008A5156 /* TutorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorModel.swift; sourceTree = "<group>"; };
+		CC32B2D32005D06600ED0F27 /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		CC32B2D52005E1B100ED0F27 /* CreateTutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTutor.swift; sourceTree = "<group>"; };
+		CC634B9720BF094B00F68EE9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CC68A34E1FCFDDC800DCC659 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CC71891620086A4400080723 /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		CC71891A200B2C3500080723 /* OfficeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeModel.swift; sourceTree = "<group>"; };
+		CC718926200D463500080723 /* SelectOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOption.swift; sourceTree = "<group>"; };
+		CC71892A200D472900080723 /* TutorHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorHours.swift; sourceTree = "<group>"; };
+		CC71892C200D47EA00080723 /* TutorHourViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorHourViewCell.swift; sourceTree = "<group>"; };
+		CC718934200DDC9000080723 /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		CC92C7481FF84C7000255128 /* appointmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appointmentModel.swift; sourceTree = "<group>"; };
+		CCCAAF432096E67900A20E79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CCDC76E01FC67EF700B2C034 /* LocateTutors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateTutors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDC76E31FC67EF700B2C034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCDC76E81FC67EF700B2C034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCDC76EA1FC67EF700B2C034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCDC76ED1FC67EF700B2C034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCDC76EF1FC67EF700B2C034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDC76F41FC67EF700B2C034 /* LocateTutorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocateTutorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDC76F81FC67EF700B2C034 /* LocateTutorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateTutorsTests.swift; sourceTree = "<group>"; };
+		CCDC76FA1FC67EF700B2C034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDC76FF1FC67EF700B2C034 /* LocateTutorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocateTutorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDC77031FC67EF700B2C034 /* LocateTutorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateTutorsUITests.swift; sourceTree = "<group>"; };
+		CCDC77051FC67EF700B2C034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDC77131FC682BE00B2C034 /* TutorLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorLogin.swift; sourceTree = "<group>"; };
+		E9757709B3C1D91B5DB96848 /* Pods-LocateTutorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateTutorsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocateTutorsTests/Pods-LocateTutorsTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDC76DD1FC67EF700B2C034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C8D9F46E38371AE4AA4349 /* Pods_LocateTutors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDC76F11FC67EF700B2C034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A7F1A324B77FA807DE6E5A /* Pods_LocateTutorsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDC76FC1FC67EF700B2C034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1309027A7CAFDA6E31B56123 /* Pods_LocateTutorsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FE7ACFD789867C47A27E30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0536538D4C65A25C63414FE2 /* Pods_LocateTutors.framework */,
+				8755C463A3A5B8027EF9568D /* Pods_LocateTutorsTests.framework */,
+				21529FE45B91BC1675C3835C /* Pods_LocateTutorsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCDC76D71FC67EF700B2C034 = {
+			isa = PBXGroup;
+			children = (
+				CC634B9720BF094B00F68EE9 /* Default-568h@2x.png */,
+				CCDC76E21FC67EF700B2C034 /* LocateTutors */,
+				CCDC76F71FC67EF700B2C034 /* LocateTutorsTests */,
+				CCDC77021FC67EF700B2C034 /* LocateTutorsUITests */,
+				CCDC76E11FC67EF700B2C034 /* Products */,
+				FEC71CEFA3D872180CA37174 /* Pods */,
+				11FE7ACFD789867C47A27E30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDC76E11FC67EF700B2C034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDC76E01FC67EF700B2C034 /* LocateTutors.app */,
+				CCDC76F41FC67EF700B2C034 /* LocateTutorsTests.xctest */,
+				CCDC76FF1FC67EF700B2C034 /* LocateTutorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCDC76E21FC67EF700B2C034 /* LocateTutors */ = {
+			isa = PBXGroup;
+			children = (
+				CC0A17EF209916AC00575807 /* TutorView.swift */,
+				CCDC76E31FC67EF700B2C034 /* AppDelegate.swift */,
+				CCDC76E71FC67EF700B2C034 /* Main.storyboard */,
+				0F276BA4200FCEA900E9EB09 /* firstPageVC.swift */,
+				0F24B355200F03EE0012E428 /* addAvailability.swift */,
+				CC718934200DDC9000080723 /* PopUp.swift */,
+				CC71892C200D47EA00080723 /* TutorHourViewCell.swift */,
+				CC71892A200D472900080723 /* TutorHours.swift */,
+				CC71891A200B2C3500080723 /* OfficeModel.swift */,
+				CC71891620086A4400080723 /* ListViewCell.swift */,
+				CC718926200D463500080723 /* SelectOption.swift */,
+				CC0A17E72097646000575807 /* UpdateProfile.swift */,
+				CC0A17EB2097647C00575807 /* UpdateFile.swift */,
+				CC0A17D72097639F00575807 /* PopUpViewController.swift */,
+				CC0A17E32097642000575807 /* ViewAppointmentCellTableViewCell.swift */,
+				CC0A17D32097628400575807 /* StudentAppointments.swift */,
+				CC0A17DB209763D600575807 /* TutorProfilePage.swift */,
+				CC0A17DF2097640600575807 /* ViewAppointments.swift */,
+				CC0A17CF2097624300575807 /* SeeAppts.swift */,
+				CC0A17CB209761C600575807 /* AppointmentLists.swift */,
+				CC32B2D52005E1B100ED0F27 /* CreateTutor.swift */,
+				CC32B2D32005D06600ED0F27 /* Create.swift */,
+				CC92C7481FF84C7000255128 /* appointmentModel.swift */,
+				CC68A34E1FCFDDC800DCC659 /* ProfileView.swift */,
+				CC26692E1FC6A5D0008A5156 /* TutorModel.swift */,
+				CCDC77131FC682BE00B2C034 /* TutorLogin.swift */,
+				CCDC76EA1FC67EF700B2C034 /* Assets.xcassets */,
+				CCDC76EC1FC67EF700B2C034 /* LaunchScreen.storyboard */,
+				CCCAAF432096E67900A20E79 /* GoogleService-Info.plist */,
+				CCDC76EF1FC67EF700B2C034 /* Info.plist */,
+			);
+			path = LocateTutors;
+			sourceTree = "<group>";
+		};
+		CCDC76F71FC67EF700B2C034 /* LocateTutorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCDC76F81FC67EF700B2C034 /* LocateTutorsTests.swift */,
+				CCDC76FA1FC67EF700B2C034 /* Info.plist */,
+			);
+			path = LocateTutorsTests;
+			sourceTree = "<group>";
+		};
+		CCDC77021FC67EF700B2C034 /* LocateTutorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCDC77031FC67EF700B2C034 /* LocateTutorsUITests.swift */,
+				CCDC77051FC67EF700B2C034 /* Info.plist */,
+			);
+			path = LocateTutorsUITests;
+			sourceTree = "<group>";
+		};
+		FEC71CEFA3D872180CA37174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DE53F908892F19215333347 /* Pods-LocateTutors.debug.xcconfig */,
+				A5DFDEF2A876E6341D22A963 /* Pods-LocateTutors.release.xcconfig */,
+				E9757709B3C1D91B5DB96848 /* Pods-LocateTutorsTests.debug.xcconfig */,
+				9B11A79CB6D4A20CF469DFEE /* Pods-LocateTutorsTests.release.xcconfig */,
+				C75C43E4152E877EF8CD009C /* Pods-LocateTutorsUITests.debug.xcconfig */,
+				021B1BCC9C4F9A02AF48521C /* Pods-LocateTutorsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCDC76DF1FC67EF700B2C034 /* LocateTutors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDC77081FC67EF700B2C034 /* Build configuration list for PBXNativeTarget "LocateTutors" */;
+			buildPhases = (
+				BFE4D028D668FE86FD5E13DA /* [CP] Check Pods Manifest.lock */,
+				CCDC76DD1FC67EF700B2C034 /* Frameworks */,
+				CCDC76DE1FC67EF700B2C034 /* Resources */,
+				0588B4DC4EE96765C0EC8112 /* [CP] Embed Pods Frameworks */,
+				19A5AD884AE173B3E631514C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocateTutors;
+			productName = LocateTutors;
+			productReference = CCDC76E01FC67EF700B2C034 /* LocateTutors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCDC76F31FC67EF700B2C034 /* LocateTutorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDC770B1FC67EF700B2C034 /* Build configuration list for PBXNativeTarget "LocateTutorsTests" */;
+			buildPhases = (
+				F016FDEB7F786BE5B31C8C96 /* [CP] Check Pods Manifest.lock */,
+				CCDC76F01FC67EF700B2C034 /* Sources */,
+				CCDC76F11FC67EF700B2C034 /* Frameworks */,
+				CCDC76F21FC67EF700B2C034 /* Resources */,
+				6D5CDBBF7E778134DE8D6DD1 /* [CP] Embed Pods Frameworks */,
+				7479F7C850D7F36F05131450 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDC76F61FC67EF700B2C034 /* PBXTargetDependency */,
+			);
+			name = LocateTutorsTests;
+			productName = LocateTutorsTests;
+			productReference = CCDC76F41FC67EF700B2C034 /* LocateTutorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCDC76FE1FC67EF700B2C034 /* LocateTutorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDC770E1FC67EF700B2C034 /* Build configuration list for PBXNativeTarget "LocateTutorsUITests" */;
+			buildPhases = (
+				8E43174BFBF30A171D719CAC /* [CP] Check Pods Manifest.lock */,
+				CCDC76FB1FC67EF700B2C034 /* Sources */,
+				CCDC76FC1FC67EF700B2C034 /* Frameworks */,
+				CCDC76FD1FC67EF700B2C034 /* Resources */,
+				C87C6604E3E39C47D3E35174 /* [CP] Embed Pods Frameworks */,
+				C511C088BE85CF11B74B0347 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDC77011FC67EF700B2C034 /* PBXTargetDependency */,
+			);
+			name = LocateTutorsUITests;
+			productName = LocateTutorsUITests;
+			productReference = CCDC76FF1FC67EF700B2C034 /* LocateTutorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDC76D81FC67EF700B2C034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Victor Opurum";
+				TargetAttributes = {
+					CCDC76DF1FC67EF700B2C034 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					CCDC76F31FC67EF700B2C034 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCDC76DF1FC67EF700B2C034;
+					};
+					CCDC76FE1FC67EF700B2C034 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCDC76DF1FC67EF700B2C034;
+					};
+				};
+			};
+			buildConfigurationList = CCDC76DB1FC67EF700B2C034 /* Build configuration list for PBXProject "LocateTutors" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCDC76D71FC67EF700B2C034;
+			productRefGroup = CCDC76E11FC67EF700B2C034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDC76DF1FC67EF700B2C034 /* LocateTutors */,
+				CCDC76F31FC67EF700B2C034 /* LocateTutorsTests */,
+				CCDC76FE1FC67EF700B2C034 /* LocateTutorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDC76DE1FC67EF700B2C034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDC76EE1FC67EF700B2C034 /* LaunchScreen.storyboard in Resources */,
+				CCCAAF3D2093B39200A20E79 /* LocateTutorsTests.xctest in Resources */,
+				CC634B9820BF094C00F68EE9 /* Default-568h@2x.png in Resources */,
+				CCCAAF402093B3A300A20E79 /* Info.plist in Resources */,
+				CCCAAF3E2093B39700A20E79 /* LocateTutorsUITests.xctest in Resources */,
+				CCDC76EB1FC67EF700B2C034 /* Assets.xcassets in Resources */,
+				CCCAAF442096E67900A20E79 /* GoogleService-Info.plist in Resources */,
+				CCCAAF422093B3B900A20E79 /* Info.plist in Resources */,
+				CCDC76E91FC67EF700B2C034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDC76F21FC67EF700B2C034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDC76FD1FC67EF700B2C034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0588B4DC4EE96765C0EC8112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocateTutors/Pods-LocateTutors-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateTutors/Pods-LocateTutors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19A5AD884AE173B3E631514C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocateTutors/Pods-LocateTutors-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateTutors/Pods-LocateTutors-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D5CDBBF7E778134DE8D6DD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateTutorsTests/Pods-LocateTutorsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7479F7C850D7F36F05131450 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateTutorsTests/Pods-LocateTutorsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E43174BFBF30A171D719CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocateTutorsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE4D028D668FE86FD5E13DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocateTutors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C511C088BE85CF11B74B0347 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateTutorsUITests/Pods-LocateTutorsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C87C6604E3E39C47D3E35174 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateTutorsUITests/Pods-LocateTutorsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F016FDEB7F786BE5B31C8C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocateTutorsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDC76F01FC67EF700B2C034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0A17D92097639F00575807 /* PopUpViewController.swift in Sources */,
+				CC0A17E92097646000575807 /* UpdateProfile.swift in Sources */,
+				CC0A17ED2097647C00575807 /* UpdateFile.swift in Sources */,
+				CCDC76F91FC67EF700B2C034 /* LocateTutorsTests.swift in Sources */,
+				CC0A17D52097628400575807 /* StudentAppointments.swift in Sources */,
+				CC0A17DD209763D600575807 /* TutorProfilePage.swift in Sources */,
+				CC0A17E12097640600575807 /* ViewAppointments.swift in Sources */,
+				CC0A17CD209761C600575807 /* AppointmentLists.swift in Sources */,
+				CC0A17E52097642000575807 /* ViewAppointmentCellTableViewCell.swift in Sources */,
+				CC0A17D12097624300575807 /* SeeAppts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDC76FB1FC67EF700B2C034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0A17DA2097639F00575807 /* PopUpViewController.swift in Sources */,
+				CC0A17EA2097646000575807 /* UpdateProfile.swift in Sources */,
+				CC0A17EE2097647C00575807 /* UpdateFile.swift in Sources */,
+				CCDC77041FC67EF700B2C034 /* LocateTutorsUITests.swift in Sources */,
+				CC0A17D62097628400575807 /* StudentAppointments.swift in Sources */,
+				CC0A17DE209763D600575807 /* TutorProfilePage.swift in Sources */,
+				CC0A17E22097640600575807 /* ViewAppointments.swift in Sources */,
+				CC0A17CE209761C600575807 /* AppointmentLists.swift in Sources */,
+				CC0A17E62097642000575807 /* ViewAppointmentCellTableViewCell.swift in Sources */,
+				CC0A17D22097624300575807 /* SeeAppts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDC76F61FC67EF700B2C034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDC76DF1FC67EF700B2C034 /* LocateTutors */;
+			targetProxy = CCDC76F51FC67EF700B2C034 /* PBXContainerItemProxy */;
+		};
+		CCDC77011FC67EF700B2C034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDC76DF1FC67EF700B2C034 /* LocateTutors */;
+			targetProxy = CCDC77001FC67EF700B2C034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCDC76E71FC67EF700B2C034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDC76E81FC67EF700B2C034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCDC76EC1FC67EF700B2C034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDC76ED1FC67EF700B2C034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCDC77061FC67EF700B2C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCDC77071FC67EF700B2C034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDC77091FC67EF700B2C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE53F908892F19215333347 /* Pods-LocateTutors.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SXK7LLRJD;
+				INFOPLIST_FILE = LocateTutors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.LocateTutors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCDC770A1FC67EF700B2C034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DFDEF2A876E6341D22A963 /* Pods-LocateTutors.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SXK7LLRJD;
+				INFOPLIST_FILE = LocateTutors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.LocateTutors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCDC770C1FC67EF700B2C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9757709B3C1D91B5DB96848 /* Pods-LocateTutorsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SXK7LLRJD;
+				INFOPLIST_FILE = LocateTutorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.LocateTutorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocateTutors.app/LocateTutors";
+			};
+			name = Debug;
+		};
+		CCDC770D1FC67EF700B2C034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B11A79CB6D4A20CF469DFEE /* Pods-LocateTutorsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SXK7LLRJD;
+				INFOPLIST_FILE = LocateTutorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.LocateTutorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocateTutors.app/LocateTutors";
+			};
+			name = Release;
+		};
+		CCDC770F1FC67EF700B2C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75C43E4152E877EF8CD009C /* Pods-LocateTutorsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SXK7LLRJD;
+				INFOPLIST_FILE = LocateTutorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.LocateTutorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocateTutors;
+			};
+			name = Debug;
+		};
+		CCDC77101FC67EF700B2C034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021B1BCC9C4F9A02AF48521C /* Pods-LocateTutorsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SXK7LLRJD;
+				INFOPLIST_FILE = LocateTutorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.LocateTutorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocateTutors;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDC76DB1FC67EF700B2C034 /* Build configuration list for PBXProject "LocateTutors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDC77061FC67EF700B2C034 /* Debug */,
+				CCDC77071FC67EF700B2C034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDC77081FC67EF700B2C034 /* Build configuration list for PBXNativeTarget "LocateTutors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDC77091FC67EF700B2C034 /* Debug */,
+				CCDC770A1FC67EF700B2C034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDC770B1FC67EF700B2C034 /* Build configuration list for PBXNativeTarget "LocateTutorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDC770C1FC67EF700B2C034 /* Debug */,
+				CCDC770D1FC67EF700B2C034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDC770E1FC67EF700B2C034 /* Build configuration list for PBXNativeTarget "LocateTutorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDC770F1FC67EF700B2C034 /* Debug */,
+				CCDC77101FC67EF700B2C034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCDC76D81FC67EF700B2C034 /* Project object */;
+}

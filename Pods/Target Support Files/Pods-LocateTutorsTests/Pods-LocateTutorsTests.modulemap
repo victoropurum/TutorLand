@@ -1,0 +1,6 @@
+framework module Pods_LocateTutorsTests {
+  umbrella header "Pods-LocateTutorsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
